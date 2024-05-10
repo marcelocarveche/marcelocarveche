@@ -1,0 +1,6 @@
+/*.js
+**/*.js
+node_modules
+build
+vite-env.d.ts
+vite.config.ts
