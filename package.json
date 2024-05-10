@@ -31,6 +31,7 @@
     "prettier": "^3.2.5",
     "typescript": "^5.2.2",
     "typescript-eslint": "^7.8.0",
-    "vite": "^5.2.11"
+    "vite": "^5.2.11",
+    "git-commit-msg-linter": "^5.0.7"
   }
 }
