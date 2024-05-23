@@ -1,12 +1,12 @@
+import { MakeMainPage } from '@/app/main/factories/pages/main-page'
 import React from 'react'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-import { MakeIndexPage } from '../factories/pages/index-page'
 
 export const Router: React.FC = ({}) => {
   const routers = createBrowserRouter([
     {
       path: '/',
-      element: <MakeIndexPage />,
+      element: <MakeMainPage />,
       index: true
     }
   ])
