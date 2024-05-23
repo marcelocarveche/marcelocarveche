@@ -1,3 +1,4 @@
+import { GlobalStyle } from '@/app/presentation/styles'
 import React, { useContext } from 'react'
 
 interface Context {}
@@ -8,7 +9,13 @@ interface GlobalProviderProps {
 const GlobalContext = React.createContext<Context>({})
 
 const GlobalProvider: React.FC<GlobalProviderProps> = ({ children }) => {
-  return <GlobalContext.Provider value={{}}>{children}</GlobalContext.Provider>
+  const [state, setState] = React.useState()
+  return (
+    <GlobalContext.Provider value={{}}>
+      <GlobalStyle />
+      {children}
+    </GlobalContext.Provider>
+  )
 }
 
 const useGlobal = () => useContext(GlobalContext)
