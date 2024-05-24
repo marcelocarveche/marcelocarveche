@@ -1,5 +1,10 @@
 import React from 'react'
+import { ChallengesPage } from '../challenges-page'
 
 export const MainPage: React.FC = () => {
-  return <h1>Main page</h1>
+  return (
+    <div>
+      <ChallengesPage />
+    </div>
+  )
 }
