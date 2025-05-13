@@ -9,7 +9,6 @@ interface GlobalProviderProps {
 const GlobalContext = React.createContext<Context>({})
 
 const GlobalProvider: React.FC<GlobalProviderProps> = ({ children }) => {
-  const [state, setState] = React.useState()
   return (
     <GlobalContext.Provider value={{}}>
       <GlobalStyle />
