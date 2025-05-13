@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
 :root {
-  --background: #0e0e29;
+  --background: #ffffff;
   --light: #f7f7f7;
 }
   /* Reset de estilos */
@@ -17,7 +17,7 @@ export const GlobalStyle = createGlobalStyle`
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: var(--background);
-    color: var(--light);
+    /* color: var(); */
   }
 
   /* Remover estilos padrão de listas */
